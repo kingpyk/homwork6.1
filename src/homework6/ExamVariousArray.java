@@ -17,24 +17,23 @@ public class ExamVariousArray {
  		int menu = s.nextInt(); 
  		switch(menu){ 
  		case 1: 
- 			new SecondMax().sec(); 
+ 			new SecondMax().start(); 
  			break; 
  		case 2: 
- 			new AvgScore().avg(); 
+ 			//new AvgScore().avg(); 
  			break; 
  		case 3: 
- 			new StudentScore().stu(); 
+ 			//new StudentScore().stu(); 
  			break; 
  		case 4: 
- 			new AptPersonCount().apt(); 
+ 			//new AptPersonCount().apt(); 
  			break;
 		case 5:
-			new OnlyNumber().onl();
+			//new OnlyNumber().onl();
 			break;
  		case 6: 
  			System.exit(0); 
  			break; 
  		} 
- 	} 
- 
+ 	}  
  } 
